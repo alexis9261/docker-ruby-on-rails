@@ -19,7 +19,7 @@ $ docker ps
 
 ### Ejecutamos este comando para acceder a la terminal del contenedor
 ```
-$ doker exec -it container_id bash
+$ docker exec -it container_id bash
 ```
 
 ### Ya dentro del contenedor, verificamos que tenemos instalados ruby y Rails en el contenedor
