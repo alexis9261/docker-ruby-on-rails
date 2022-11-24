@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install \
     nodejs \
     curl \
     sqlite3 \
-    yarr -y
+    yarn -y
 
 RUN gem install bundler
 
